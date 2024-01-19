@@ -7,7 +7,7 @@
 //
 
 extension Karte {
-    public enum App: String, CaseIterable {
+    public enum App: String, CaseIterable, Codable {
         case appleMaps
         case googleMaps // https://developers.google.com/maps/documentation/ios/urlscheme
         case citymapper
